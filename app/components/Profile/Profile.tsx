@@ -16,7 +16,7 @@ const Profile = ({ user }: IProps) => {
 
   return (
     <>
-      <div className="w-12 h-12 bg-gray-800 overflow-hidden">
+      <div className="w-12 h-12 overflow-hidden">
         <button onClick={() => setIsOpen((prev) => !prev)}>
           <Image
             src={user?.image || "/assets/images/user.png"}

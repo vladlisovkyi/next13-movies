@@ -42,7 +42,7 @@ const Sidebar = () => {
       <button
         className={`fixed w-12 h-12  rounded-full text-turq flex md:hidden justify-center items-center top-[50%] -left-2 ${
           open && "translate-x-[150%]"
-        } z-[60] transition-all duration-150`}
+        } z-[30] transition-all duration-150`}
         onClick={handleClick}
       >
         <BiRightArrow size={28} />

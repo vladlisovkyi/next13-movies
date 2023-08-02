@@ -19,7 +19,6 @@ const AuthButtons = () => {
             onClick={() => setShowModal(true)}
           >
             <FaUserCircle size={28} />
-
             <span className="hidden md:flex">Sign In</span>
           </button>
           {showModal && (
